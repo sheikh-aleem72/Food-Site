@@ -6,7 +6,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="text-red-300 text-2xl">Hello</div>
+      <div className="text-crumbs text-2xl font-serif">Crumbs</div>
     </>
   );
 }
