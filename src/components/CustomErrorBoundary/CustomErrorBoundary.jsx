@@ -14,10 +14,12 @@ function CustomErrorBoundaryUI({ error, resetErrorBoundary }) {
 }
 
 export default function CustomErrorBoundary({ children }) {
-  <ErrorBoundary
-    FallbackComponent={CustomErrorBoundaryUI}
-    onReset={() => window.location.reload()}
-  >
-    {children}
-  </ErrorBoundary>;
+  return (
+    <ErrorBoundary
+      FallbackComponent={CustomErrorBoundaryUI}
+      onReset={() => window.location.reload()}
+    >
+      {children}
+    </ErrorBoundary>
+  );
 }

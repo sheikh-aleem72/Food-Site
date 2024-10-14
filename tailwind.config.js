@@ -2,13 +2,14 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    colors: {
-      crumbs: "#BD5814",
+    extend: {
+      colors: {
+        crumbs: "#BD5814",
+      },
+      fontFamily: {
+        serif: ['"Libre Baskerville"', "serif"],
+      },
     },
-    fontFamily: {
-      serif: ['"Libre Baskerville"', "serif"],
-    },
-    extend: {},
   },
   plugins: [],
 };
