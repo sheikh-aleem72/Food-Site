@@ -1,5 +1,10 @@
 import React from "react";
+import HeroBanner from "../../components/HeroBanner/HeroBanner";
 
 export default function Home() {
-  return <div className="h-[100vh]"></div>;
+  return (
+    <div className="">
+      <HeroBanner />
+    </div>
+  );
 }
