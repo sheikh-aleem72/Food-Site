@@ -11,7 +11,13 @@ export default function Accordion({ heading, contentHeading, content }) {
           setAccordionState(accordionState == "hidden" ? "flex" : "hidden");
         }}
       >
-        <h1 className="text-2xl font-serif hover:underline ">{heading}</h1>
+        <h1
+          className={`text-2xl font-serif hover:underline underline-transition transition-colors duration-300 ${
+            accordionState === "flex" ? "underline" : ""
+          }`}
+        >
+          {heading}
+        </h1>
         <button className="p-4 rounded-full bg-white md:text-xl border border-black">
           {accordionState === "hidden" ? <FaArrowDown /> : <FaArrowUp />}
         </button>

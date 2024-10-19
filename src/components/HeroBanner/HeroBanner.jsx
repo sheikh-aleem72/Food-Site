@@ -1,5 +1,7 @@
 import React from "react";
 import heroBanner from "/reactProject/Food-Site/src/assets/Images/hero-banner.svg";
+import PrimaryButton from "../PrimaryButton/PrimaryButton";
+import SecondaryButton from "../SecondaryButton/SecondaryButton";
 
 export default function HeroBanner() {
   return (
@@ -14,12 +16,8 @@ export default function HeroBanner() {
           at Crumbs Bakery.
         </p>
         <div className="flex flex-col md:items-start gap-2 font-serif">
-          <button className="text-white bg-black p-3 rounded">
-            Explore Baked Dreams
-          </button>
-          <button className="p-3 bg-white rounded border border-b-4 border-black ">
-            Bake Your Own
-          </button>
+          <PrimaryButton text={"Explore Baked Dreams"} />
+          <SecondaryButton text={"Bake Your Own"} />
         </div>
       </div>
       <div className="lg:basis-2/4 basis-2/5 flex   p-4">
