@@ -11,7 +11,7 @@ export default function Footer() {
   const [langDialogue, setLangDialogue] = useState("hidden");
 
   return (
-    <div className="min-h-[240px] bg-[#202020] text-white flex flex-col w-full md:items-normal items-center px-6 py-4 gap-6 ">
+    <div className="min-h-[240px] mt-8 bg-[#202020] text-white flex flex-col w-full md:items-normal items-center px-6 py-4 gap-6 ">
       <div className="flex md:flex-row flex-col md:justify-between justify-center w-full items-center gap-3">
         <div className="">
           <h1 className="uppercase opacity-90 text-[0.9rem]">Language</h1>
