@@ -3,6 +3,8 @@ import HeroBanner from "../../components/HeroBanner/HeroBanner";
 import Reviews from "../../components/Reviews/Reviews";
 import BakeryAboutAccordion from "../../components/BakeryAboutAccordion/BakeryAboutAccordion";
 import ProductShowcase from "../../components/ProductShowcase/ProductShowcase";
+import Products from "../../components/Products/Products";
+import DiscoverBanner from "../../components/DiscoverBanner/DiscoverBanner";
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
       <Reviews />
       <BakeryAboutAccordion />
       <ProductShowcase />
+      <Products />
+      <DiscoverBanner />
     </div>
   );
 }

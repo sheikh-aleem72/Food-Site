@@ -20,7 +20,7 @@ export default function QuantitySelector() {
         value={quantity}
         max="null"
       />
-      <button class="" onClick={() => setQuantity(quantity + 1)}>
+      <button onClick={() => setQuantity(quantity + 1)}>
         <FaPlus />
       </button>
     </div>
